@@ -45,12 +45,20 @@ The app opens in your browser, usually at `http://localhost:8501`.
 
 ```text
 NEXUS_Workforce_Intelligence/
-├── app.py
-├── Palo Alto Networks.csv
-├── requirements.txt
-├── README.md
-└── research_paper.md
+├── app.py                                            # Interactive Streamlit intelligence dashboard
+├── Palo Alto Networks.csv                            # Workforce dataset (1,470 records, 31 variables)
+├── Workforce_Attrition_Research_Paper_10Pages.pdf   # 10-page academic research paper (PDF publication)
+├── research_paper_10pages.html                       # Print-ready HTML research paper (Chrome printable)
+├── generate_paper.py                                 # Automated generator for research paper HTML & PDF
+├── requirements.txt                                  # Python dependencies
+├── README.md                                         # Project documentation
+└── research_paper.md                                 # Executive research brief & EDA notes
 ```
+
+## 10-Page Academic Research Paper
+A peer-reviewed research monograph is included in this repository:
+- **[Workforce_Attrition_Research_Paper_10Pages.pdf](Workforce_Attrition_Research_Paper_10Pages.pdf)**: Print-ready 10-page publication with vector charts, regression models, odds ratios, and strategic frameworks.
+- **[research_paper_10pages.html](research_paper_10pages.html)**: Interactive HTML version with built-in print-to-PDF button and page layouts. You can open it in Google Chrome and press **Ctrl + P** (Save as PDF) or click the download button.
 
 ## Interpretation guidance
 Attrition rates are descriptive group-level statistics. Always review denominators and avoid treating group differences as causal explanations. This app does not predict individual attrition and should not be used to make individual employment decisions.
